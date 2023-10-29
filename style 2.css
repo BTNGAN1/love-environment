@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(gojo-satoru-8sz62hlsg1epni6l.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.from-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #3b3b3bbd;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:200px 50px;
+    background: linear-gradient(to right,#440088,#880044);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
